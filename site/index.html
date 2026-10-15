@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сервер на nginx</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1e2124;
+            color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #2c2f33;
+            border-radius: 12px;
+            padding: 40px 60px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+        h1 { color: #4caf50; margin-bottom: 10px; }
+        p { color: #cfcfcf; }
+        code {
+            background-color: #1e2124;
+            padding: 2px 8px;
+            border-radius: 6px;
+            color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Сервер настроен и работает</h1>
+        <p>Эта страница отдаётся веб-сервером <code>nginx</code>,<br>
+        развёрнутым на виртуальной машине Ubuntu Server.</p>
+        <p>Автозапуск сервиса и файрвол настроены.</p>
+    </div>
+</body>
+</html>
